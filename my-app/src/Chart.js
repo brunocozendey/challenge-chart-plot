@@ -164,10 +164,10 @@ function Chart() {
       let events_json = {"data":[], "span":[]};
       events_input.forEach((event)=>{
         let event_json = parseJson(event)
-        if (event_json.type == 'data'){
+        if (event_json.type === 'data'){
           events_json.data.push(event_json)
         }
-        else if (event_json.type == 'span'){
+        else if (event_json.type === 'span'){
           events_json.span.push(event_json)
         }
         else{
