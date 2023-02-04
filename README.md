@@ -1,6 +1,6 @@
 # Bruno's Challenge
 
-In the project directory, you can run the following commands:
+In the project directory "my-app", you can run the following commands:
 
 ### `npm i`
 
